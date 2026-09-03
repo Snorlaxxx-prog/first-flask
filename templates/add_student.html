@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Add Student</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="form-container">
+
+        <h1>Add Student</h1>
+
+        <form method="POST">
+
+            <label>Unique Student ID</label>
+
+            <input
+                type="number"
+                name="id"
+                placeholder="Example: 1003"
+                required
+            >
+
+            <label>Name</label>
+
+            <input
+                type="text"
+                name="name"
+                placeholder="Enter name"
+                required
+            >
+
+            <label>Course</label>
+
+            <input
+                type="text"
+                name="course"
+                placeholder="Example: BSIT"
+                required
+            >
+
+            <label>Age</label>
+
+            <input
+                type="number"
+                name="age"
+                placeholder="Enter age"
+                required
+            >
+
+            <button type="submit">
+                Add Student
+            </button>
+
+        </form>
+
+        <a href="/" class="back-button">
+            ← Back to Menu
+        </a>
+
+    </div>
+
+</body>
+</html>

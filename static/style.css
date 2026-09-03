@@ -1,0 +1,37 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu-button {
+    display: block;
+    padding: 15px;
+    background: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.menu-button:hover {
+    background: #0056b3;
+}
+
+.result {
+    margin-top: 25px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.error {
+    margin-top: 20px;
+    color: red;
+}
+
+.message {
+    margin-top: 20px;
+    font-weight: bold;
+}
